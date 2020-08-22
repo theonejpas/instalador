@@ -8,7 +8,7 @@ SCPusr="${SCPdir}/ger-user"
 SCPfrm="/etc/ger-frm"
 SCPfrm3="/etc/adm-lite"
 SCPinst="/etc/ger-inst"
-kalix1="aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3RoZW9uZWpwYXMvdnBzLW1vZC9tYXN0ZXIvU0NSSVBU"
+kalix1="aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3RoZW9uZWpwYXMvc2NyaXB0L21hc3Rlci9TQ1JJUFQ="
 PUTO='base64 -d'
 echo "nameserver 8.8.8.8" > /etc/resolv.conf
 echo "nameserver 8.8.4.4" >> /etc/resolv.conf
