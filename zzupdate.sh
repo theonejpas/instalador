@@ -201,7 +201,11 @@ echo -e "\033[93m                PARA FINALIZAR SOLO"
 echo -e "\033[93m                 DIGITE LA PALABRA\033[97m"
 echo ""
 echo -e "\033[1;41m                     sudo VPS-MX                      \033[0;37m"
+<<<<<<< HEAD
 wget https://www.dropbox.com/s/llegsie2czm66iq/VPS-MX.sh -O /usr/bin/VPS-MX &> /dev/null
+=======
+wget https://raw.githubusercontent.com/theonejpas/instalador/master/VPS-MX.sh -O /usr/bin/VPS-MX &> /dev/null
+>>>>>>> branch 'master' of https://github.com/theonejpas/instalador.git
 chmod +x /usr/bin/VPS-MX
 if [ "$REBOOT" = "1" ]; then
 	printTitle "        SU VPS SE REINICIARA EN 20 SEGUNDOS           "

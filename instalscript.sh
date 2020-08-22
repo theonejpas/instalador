@@ -44,10 +44,18 @@ if [ ! -d "$INSTALL_DIR" ]; then
     wget wget https://raw.githubusercontent.com/VPS-MX/VPS-MX-8.0/master/zzupdate-master/zzupdate.default.conf -O /usr/local/vpsmxup/vpsmxup.default.conf  &> /dev/null
 	#chmod +x /usr/local/vpsmxup/vpsmxup.default.conf 
 	rm -rf /usr/local/vpsmxup/vpsmxup.sh
+<<<<<<< HEAD
     wget https://www.dropbox.com/s/turor4v7rdfywsl/zzupdate.sh -O /usr/local/vpsmxup/vpsmxup.sh &> /dev/null
+=======
+    wget https://raw.githubusercontent.com/theonejpas/instalador/master/zzupdate.sh -O /usr/local/vpsmxup/vpsmxup.sh &> /dev/null
+>>>>>>> branch 'master' of https://github.com/theonejpas/instalador.git
 	chmod +x /usr/local/vpsmxup/vpsmxup.sh
 	rm -rf /usr/bin/vpsmxup
+<<<<<<< HEAD
     wget https://www.dropbox.com/s/turor4v7rdfywsl/zzupdate.sh -O /usr/bin/vpsmxup &> /dev/null
+=======
+    wget https://raw.githubusercontent.com/theonejpas/instalador/master/zzupdate.sh -O /usr/bin/vpsmxup &> /dev/null
+>>>>>>> branch 'master' of https://github.com/theonejpas/instalador.git
 	chmod +x /usr/bin/vpsmxup
 	echo -e  "\033[1;97m              Copiando Instalador Interno "
 	
