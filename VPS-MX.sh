@@ -332,7 +332,7 @@ msg -bar2
 [[ $1 = "" ]] && funcao_idioma || {
 [[ ${#1} -gt 2 ]] && funcao_idioma || id="$1"
  }
-Key="UnModGratuitoxDK?%ab97cda8f?K81mx@+95+94@"
+Key="MODO GRATUITO, SIN MINERÍA Y OTROS."
 REQUEST=$(echo $kalix1|$PUTO)
 echo "$IP" > /usr/bin/vendor_code
 cd $HOME
